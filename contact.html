@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+</head>
+<body>
+    <h3>Contact Ways</h3>
+    <ol>
+        <li>Phone number</li>
+        <li>Instagram</li>
+        <li>E-mail</li>
+        <li>Post</li>
+    </ol>
+    <hr>
+    <form action="mailto:hello@gmail.com" method="post" enctype="text/plain">
+        <label>Your name:</label>
+        <input type="text" name="name" value=""><br>
+        <label>E-mail address:</label>
+        <input type="email" name="email" value="" required><br>
+        <input type="checkbox" name="permit" value="permit">
+        <label>I want to get notifications and messages on e-mail regularly</label><br>
+        <label>Password:</label>
+        <input type="password" name="password" value="password" minlength="6    " maxlength="12" required>
+        <label>Your message:</label><br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Submit"><br>
+    </form>
+</body>
+</html>
